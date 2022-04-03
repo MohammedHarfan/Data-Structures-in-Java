@@ -1,3 +1,5 @@
+package com.dsa.arrays;
+
 public class MaxMin {
     public static void main(String[] args) {
         long n = 6;
@@ -7,7 +9,7 @@ public class MaxMin {
         pair product = getMinMax(arr, n);
 
         //Printing the result
-        System.out.println("min = " + product.first + " " + "max = " + product.second); //Output- {5 ,1, 2, 3, 4}
+        System.out.println("min = " + product.first + " " + "max = " + product.second); //min = 1 max = 10000
     }
 
     //Find minimum and maximum element in an array
